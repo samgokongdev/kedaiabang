@@ -16,16 +16,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="font-bold text-2xl">Keranjang</div>
-        <div>
-          <Link href={"/"}>
-            <Image
-              src="/home.svg"
-              width={35}
-              height={35}
-              alt="Picture of the author"
-            />
-          </Link>
-        </div>
+        <div className="w-[35px]"></div>
       </nav>
       <section className="mt-10">
         <div className="grid grid-cols-1 gap-2">
